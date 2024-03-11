@@ -4,8 +4,6 @@
 Projeto utilizando Ferramenta poderosa no Azure Cloud. Estamos falando do Azure Studio e o portal de Serviços Cognitivos vinculados ao Azure.
 
 
-
-
 ## Como chegar lá?
 
 Acesse o [Azure](https://azure.com) e logue com sua conta. Caso não tenha crie uma gratuita.
@@ -14,18 +12,17 @@ Acesse o [Azure](https://azure.com) e logue com sua conta. Caso não tenha crie 
 
 * Assim que acessar o Portal do Azure, clique em "Criar um recurso" e depois no menu a esquerda, clique em "IA + Machine Learning" e por ultimo na segunda opção "Serviços Cognitivos".
 
-![](/imagens/criando_recurso.png)
+![](imagens/criando_recuso.png)
 
-
-REcurso criado, vamos para o portal do [Vision Studio](https://portal.vision.cognitive.azure.com/).
+Recurso criado, vamos para o portal do [Vision Studio](https://portal.vision.cognitive.azure.com/).
 
 Faça o login com sua conta gratuita ou não, criada la no portal Azure.
 
 Conectado ao Vision Studio, clique na imagem abaixo para visualizar os recursos disponiveis e selecione conforme a imagem abaixo:
-![](/imagens/vision1)
+![](imagens/vision1.png)
 
 Na pagina de "all Resources", selecione o recurso criado anteriormente, conforme imagen abaixo:
-![](/imagens/vision2)
+![](imagens/vision2.png)
 
 
 Apos o passo acima, estamos prontos para usar dois recuros:*   
@@ -33,23 +30,25 @@ Apos o passo acima, estamos prontos para usar dois recuros:*
 * Optical character recognition (OCR)
 * Face
 
-![](/imagens/vision3)
+![](imagens/vision3.png)
+
 ## Ex 1 - Reconhecendo pesosas em uma Prova de ciclismo🚴🚴🚴
 
-O Ciclista  da Foto é MAthias van der Poel, holandes na prova do campeonato mundial de ciclismo destrada disputada em AGosto de 2023, na cidade Galsgow - Escócia.
+O Ciclista  da Foto é Mathias van der Poel, holandes na prova do campeonato mundial de ciclismo destrada disputada em AGosto de 2023, na cidade Galsgow - Escócia.
 
-![](/inputs/1 - mvdp_for_the_win.jpeg)
+![](inputs/1-mvdp_for_the_win.jpeg)
 
 Ao passamros a imagem acima no detector de Faces, vemos que claramente a ferramenta reconhece as faces nitidas de praticamente todos nas fotos.
 
-![](/output/1 - resultado_detecção_facial.png)
+![](/output/1-resultado_detecção_facial.png)
 
 ## Ex 2 - Tweet na plataforma X, utilizando o OCR para capitação de texto em imagens.
 
-![](/inputs/4 - Frase_perfil.png)
+![](inputs/4-Frase_perfil.png)
+
 Neste exemeplo a ferramenta de OCR consegue separar muito bem todo o textos e referencias de usuario, para um TXT comom e separado por linhas!
 
-![](/output/4 - REsultado_frase_perfil.png)
+![](output/4-Resultado_frase_perfil.png)
 
 
 Há outros exemplos nas pastas inputs e output para análise ou mesmo para uso no [Vision Studio](https://portal.vision.cognitive.azure.com/)
